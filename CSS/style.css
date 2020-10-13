@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* START: Navigation */
+
+.navbar {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.9);
+    padding-left: 10%;
+    background-color: #f2f4fb;
+    width: 100%;
+    top: 0px;
+    z-index: 2;
+    box-sizing: border-box;
+}
+.navbar-nav {
+    padding-left: 7%;
+}
+.navbar-nav a {
+    color: #000;
+}
+.login-btn {
+    margin-right: 5%;
+    background-color: #1e88e533;
+    color: #1e88e5;
+    width: 100px;
+    font-weight: bold;
+}
+.login-btn:hover {
+    background-color: #1e88e5;
+    color: #fff;
+}
+
+
+
+/* END: Navigation */
+
+/* START: Banner */
+.banner {
+    position: relative;
+    margin-top: 58px;
+    z-index: -1;
+    width: 100%; 
+}
+.banner img {
+    width: 100%;
+}
+.cover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* END: Banner */
+
+/* START: Overview & About Us*/
+.secOne {
+    background-color: #f2f4fb;
+    overflow: hidden;
+}
+.sectionHead {
+    margin-top: 60px;
+    /* border: 1px solid red; */
+    font-size: 55px;
+    font-weight: bold;
+    color: #c6c6c6;
+    text-align: center;
+}
+.overviewImg {
+    width: 90%;
+    /* border: 1px solid red; */
+    margin: 20px 1% 25px 5%;
+}
+.overviewImg img {
+    width: 100%;
+}
+.overviewText {
+    margin: 20px 5% 25px 1%;
+    border: 1px solid red;
+}
+
+
+/* END: Overview */
+
+/* Start: Sticky background */
+
+.stickyBackground {
+    height: 100vh;
+    background-image: url(/images/Road-and-Transportation-Engineering-image.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.stickyBackground2 {
+    height: 100vh;
+    background-image: url(/images/bckd4.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* End: Sticky background */
+
+/* Start: Apply */
+
+
+.apply {
+    overflow: hidden;
+    background-color: #f2f4fb;
+    padding-bottom: 30px;
+}
+.bgApply1 {
+    border: 1px solid #c6c6c6;
+    width: 93.2%;
+    border-radius: 5px;
+   
+}
+.bgApply1:hover {
+    background-color: #800020;
+    color: #fff;
+}
+.bgApply2 {
+    border: 1px solid #c6c6c6;
+    width: 93.2%;
+    border-radius: 5px;
+}
+.bgApply2:hover {
+    background-color: #175977;
+    color: #fff;
+}
+.applyImg {
+    width: 100%px;
+}
+.applyImg img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.applyText {
+    padding: 20px;
+}
+.applyText h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.applyText p {
+    margin-bottom: 40px;
+}
+.applyText button {
+    background-color: #1e88e5;
+    width: 135px;
+
+}
+/* End: Apply */
+
