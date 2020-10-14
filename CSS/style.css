@@ -124,14 +124,13 @@ html {
 .apply {
     overflow: hidden;
     background-color: #f2f4fb;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
     padding-bottom: 140px;
 }
 .bgApply1 {
     border: 1px solid #c6c6c6;
     width: 93.2%;
     border-radius: 5px;
-   
 }
 .bgApply1:hover {
     background-color: #800020;
@@ -250,3 +249,65 @@ html {
 }
 
 /* END: Footer */
+
+
+
+@media(max-width: 800px){ 
+
+    .stickyBackground {
+        display: none;
+    }
+    .stickyBackground2 {
+        display: none;
+    }
+    .sectionHead {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 35px;
+        font-weight: bold;
+        color: #c6c6c6;
+        text-align: center;
+    }
+    .overviewText {
+        margin: 15px 1% 15px 1%;
+       
+        font-size: 14px;
+        padding: 5% 5% 5% 7%;
+    }
+    .secOne {
+        margin-bottom: 15px;
+        padding-bottom: 50px;
+       
+    }
+    .apply {
+        margin-bottom: 15px;
+        padding-bottom: 50px;
+        
+        
+    }
+    .applyBox1 {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        padding-bottom: 25px;
+    }
+    .applyBox2 {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .applyText h3 {
+        font-size: 18px;
+    }
+    .applyText p {
+        font-size: 14px;
+    }
+    .form-row {
+        margin: 0px 0px 0px 0px;
+    }
+    .form-row input {
+        margin-bottom: 15px;
+    }
+    .formBtn {
+        margin: 20px;
+    }
+
+}
