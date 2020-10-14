@@ -2,10 +2,12 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
-
+html {
+    scroll-behavior: smooth;
+  }
 /* START: Navigation */
-
 .navbar {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.9);
     padding-left: 10%;
@@ -32,9 +34,6 @@
     background-color: #1e88e5;
     color: #fff;
 }
-
-
-
 /* END: Navigation */
 
 /* START: Banner */
@@ -62,10 +61,11 @@
 .secOne {
     background-color: #f2f4fb;
     overflow: hidden;
+    padding-bottom: 140px;
 }
 .sectionHead {
     margin-top: 60px;
-    /* border: 1px solid red; */
+    margin-bottom: 40px;
     font-size: 55px;
     font-weight: bold;
     color: #c6c6c6;
@@ -106,11 +106,11 @@
 
 /* Start: Apply */
 
-
 .apply {
     overflow: hidden;
     background-color: #f2f4fb;
     padding-bottom: 30px;
+    padding-bottom: 140px;
 }
 .bgApply1 {
     border: 1px solid #c6c6c6;
@@ -150,10 +150,88 @@
 .applyText p {
     margin-bottom: 40px;
 }
-.applyText button {
-    background-color: #1e88e5;
-    width: 135px;
-
+.applyBtn1 {
+    background-color: #800020;
+    color: #fff;
+    width: 120px;
+    border-radius: 0px 5px;
+}
+.applyBtn1:hover {
+    background-color: #fff;
+    color: #800020;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.applyBtn2 {
+    background-color: #175977;
+    color: #fff;
+    width: 120px;
+    border-radius: 0px 5px;
+}
+.applyBtn2:hover {
+    background-color: #fff;
+    color: #175977;
+    font-size: 16px;
+    font-weight: bold;
+    
 }
 /* End: Apply */
 
+/* Start: Contact Us */
+.contactBox {
+    background-color: #f2f4fb;
+    border: 1px solid #f2f4fb;
+}
+.formHeader {
+    font-size: 18px;
+    text-align: center;
+    padding: 25px 0px 30px 0px;
+}
+.form-row {
+    margin: 20px 0px 20px 0px;
+}
+.form-row input {
+    font-size: 14px;
+}
+.formBtn {
+    float: right;
+    margin-right: 6%;
+    background-color: #800020;
+    color: #fff;
+    width: 120px;
+    border-radius: 0px 5px;
+}
+.formBtn:hover {
+    background-color: #fff;
+    color: #800020;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.contactImg {
+    width: 100%;
+}
+.contactImg img {
+    width: 100%;
+}
+
+/* END: Contact Us */
+
+/* START: Footer */
+.footerBox {
+    padding: 30px 0px 15px 0px;
+    text-align: center;
+    background-color: #175977;
+    color: #fff;
+   
+    font-size: 14px;
+}
+.footerBox a {
+    color: #fff;
+}
+.footerBox a:hover {
+    color: #800020;
+}
+
+/* END: Footer */
