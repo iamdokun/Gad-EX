@@ -21,7 +21,8 @@ body {
     width: 70%;
     margin: auto;
     border-radius: 5px;
-    box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.9);
+    /* box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.9); */
+    box-shadow: 5px 15px 15px 5px rgba(0, 0, 0, 0.2);
 }
 .bgformBox {
     background-color: #f2f4fb;
