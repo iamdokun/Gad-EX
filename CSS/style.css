@@ -26,13 +26,14 @@ html {
 .nav-item {
     margin-left: 20px;
 }
-.login-btn {
+.login-btn a {
     margin-right: 5%;
     font-size: 15px;
     color: #800020;
     font-weight: bold;
+    text-decoration: none;
 }
-.login-btn:hover {
+.login-btn a:hover {
     color: #175977;
 }
 #donate {
@@ -41,6 +42,9 @@ html {
     border-radius: 0px 5px;
     text-align: center;
     margin-left: 30px;
+}
+#donate:hover {
+    background-color: #175977;
 }
 #donate a {
     color: #fff;
