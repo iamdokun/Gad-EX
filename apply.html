@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/apply.css">
+</head>
+<body>
+
+    <!-- <input type="checkbox" id="check">
+    <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+    </label> -->
+    <div class="sidebar">
+        <header>Gad<span>EX</span></header>
+        <!-- <header><a href=""><img src="/images/GadEXLOGO.png" alt=""></a></header> -->
+        <a class="active" href="studentdb.html"><i class="fas fa-qrcode"></i><span>Dashboard</span></a>
+        <a href="#"><i class="fas fa-user"></i><span>Profile</span></a>
+        <a href="#"><i class="fas fa-sliders-h"></i><span>Request</span></a>
+        <a href="#"><i class="fas fa-envelope"></i><span>Assessment</span></a>
+        <a href="login.html"><i class="fas fa-sign-out-alt"></i><span>Logout</span></a>
+    </div>
+
+    <!-- Start: Body Content Top -->
+    <section class="bodyTopBox">
+        <div class="row">
+            <div class="col-sm">
+                <div class="searchBox">
+                    <form class="form-inline">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1"><i class="fas fa-search"></i></span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="search" aria-label="Username"
+                                aria-describedby="basic-addon1">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-sm"></div>
+            <div class="col-sm">
+                <div class="topIconBox">
+                    <a href="">
+                        <div class="icon"><i class="far fa-question-circle"></i></div>
+                    </a>
+                    <a href="">
+                        <div class="icon"><i class="fas fa-cog"></i></div>
+                    </a>
+                    <a href="">
+                        <div class="icon"><i class="far fa-bell"></i></div>
+                    </a>
+                    <a href="">
+                        <div class="profilepicture"><img src="/images/uche.png" alt=""></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <section class="calendarBox">
+            <div class="rightSide">
+                <div class="calendar">
+                    <div class="calendarHead">Calendar</div>
+                    <div id="calendar">
+                        <iframe src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23c0c8f0&amp;ctz=Africa%2FLagos&amp;title&amp;showTitle=0&amp;showNav=0&amp;showDate=1&amp;showPrint=0&amp;showTz=0&amp;showCalendars=0&amp;showTabs=0&amp;src=ZW4ubmcjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23F6BF26" style="border-width:0" width="320" height="320" frameborder="0" scrolling="no"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+
+            <!-- Start: Apply form -->
+
+            <section>
+                <div class="applyBox">
+                    <div class="applyHead">Be an Intern | Apprentice</div>
+                    <form>
+                        
+                          <div class="form-row">
+                            <div class="form-group col-md-6">
+                              <label for="inputEmail4">First Name</label>
+                              <input type="text" class="form-control" id="inputEmail4">
+                            </div>
+                            <div class="form-group col-md-6">
+                              <label for="inputPassword4">Last Name</label>
+                              <input type="text" class="form-control">
+                            </div>
+                          </div>
+                          <div class="form-row">
+                            <div class="form-group col-md-6">
+                              <label for="inputEmail4">Email</label>
+                              <input type="email" class="form-control" id="inputEmail4">
+                            </div>
+                            <div class="form-group col-md-6">
+                              <label for="inputPassword4">Phone Number</label>
+                              <input type="text" class="form-control">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="inputAddress">Address</label>
+                            <input type="text" class="form-control" id="inputAddress">
+                          </div>
+                          <div class="form-group">
+                            <label for="inputAddress2">Address 2</label>
+                            <input type="text" class="form-control" id="inputAddress2">
+                          </div>
+                          <div class="form-row">
+                            <div class="form-group col-md-6">
+                              <label for="inputCity">City</label>
+                              <input type="text" class="form-control" id="inputCity">
+                            </div>
+                            <div class="form-group col-md-4">
+                              <label for="inputState">State</label>
+                              <select id="inputState" class="form-control">
+                                <option selected disabled value="">Select...</option>
+                                <option>Abia</option>
+                                <option>Adamawa</option>
+                                <option>Akwa Ibom</option>
+                                <option>Anambra</option>
+                                <option>Bauchi</option>
+                                <option>Bayelsa</option>
+                                <option>Benue</option>
+                                <option>Borno</option>
+                                <option>Cross River</option>
+                                <option>Delta</option>
+                                <option>Ebonyi</option>
+                                <option>Edo</option>
+                                <option>Ekiti</option>
+                                <option>Enugu</option>
+                                <option>Gombe</option>
+                                <option>Imo</option>
+                                <option>Jigawa</option>
+                                <option>Kaduna</option>
+                                <option>Kano</option>
+                                <option>Katsina</option>
+                                <option>Kebbi</option>
+                                <option>Kogi</option>
+                                <option>Kwara</option>
+                                <option>Lagos</option>
+                                <option>Nassarawa</option>
+                                <option>Niger</option>
+                                <option>Ogun</option>
+                                <option>Ondo</option>
+                                <option>Osun</option>
+                                <option>Oyo</option>
+                                <option>Plateau</option>
+                                <option>Rivers</option>
+                                <option>Sokoto</option>
+                                <option>Taraba</option>
+                                <option>Yobe</option>
+                                <option>Zamfara</option>
+                                <option>F.C.T.</option>
+                              </select>
+                            </div>
+                            <div class="form-group col-md-2">
+                              <label for="inputZip">Zip</label>
+                              <input type="text" class="form-control" id="inputZip">
+                            </div>
+                          </div>
+                        <div class="form-group">
+                          <label for="exampleFormControlInput1">Social Media Handle</label>
+                          <input type="email" class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Area Of Intrest</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option selected disabled value="">Select...</option>
+                                <option>Advertising, Media & Communication</option>
+                                <option>Agriculture, Fishing & Forestry</option>
+                                <option>Automobile & Aviation</option>
+                                <option>Banking, Finance & Insurance</option>
+                                <option>Construction</option>
+                                <option>Education</option>
+                                <option>Energy & Utilities</option>
+                                <option>Enforcement & Security</option>
+                                <option>Entertainment, Events & Sport</option>
+                                <option>Government</option>
+                                <option>Healthcare</option>
+                                <option>Hospitality & Hotel</option>
+                                <option>IT & telecom</option>
+                                <option>Laws & Compliance</option>
+                                <option>Manufacturings & Warehousing</option>
+                                <option>Mining, Energy & Metals</option>
+                                <option>NGO, NPO,& Charity</option>
+                                <option>Real Estate</option>
+                                <option>Retails & Fashion</option>
+                                <option>Shipping & Logistics</option>
+                                <option>Tourism & Travel</option>   
+                            </select>
+                          </div>
+                        
+                        <div class="form-group">
+                          <label for="exampleFormControlTextarea1">What are your expectations for the trianing?</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">What are you passionate about and how would this training help?</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleFormControlTextarea1">What are you hoping to learn?</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleFormControlTextarea1">What motivated you to apply for this training?</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                        <div class="form-group">
+                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                            <label for="exampleFormControlFile1">Upload a CV no larger than 10mb for file types .pdf, .doc, .docx</label>
+                          </div>
+                          <div class="btnBox">
+                          <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                          </div>
+                        </form>
+                </div>
+            </section>
+
+            <!-- END: Apply form -->
+
+        
+
+    </section>
+    <!-- End: Body Content Top -->
+
+    
+    
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

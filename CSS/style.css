@@ -49,6 +49,9 @@ html {
 #donate a {
     color: #fff;
 }
+.dropdown-menu {
+    background-color: #f2f4fb;
+}
 /* END: Navigation */
 
 /* START: Banner */
@@ -95,8 +98,27 @@ html {
     width: 100%;
 }
 .overviewText {
-    margin: 20px 5% 25px 1%;
-    border: 1px solid red;
+    margin: 10px 5% 10px 1%;
+}
+.overviewTextHead {
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #800020;
+    margin-bottom: 15px;
+}
+.overviewText p {
+    margin-left: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+.overviewTextwrap {
+   text-align: justify;
+    font-size: 14px;
+    line-height: 30px;
+}
+.aboutText {
+    padding-top: 10px;
 }
 
 
@@ -163,6 +185,9 @@ html {
 }
 .applyText p {
     margin-bottom: 40px;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: justify;
 }
 .applyBtn1 {
     background-color: #800020;
@@ -221,7 +246,7 @@ html {
     color: #800020;
     font-size: 16px;
     font-weight: bold;
-    
+    border: 1px solid #800020;
 }
 .contactImg {
     width: 100%;
@@ -269,7 +294,7 @@ html {
         text-align: center;
     }
     .overviewText {
-        margin: 15px 1% 15px 1%;
+        margin: 0px 1% 15px 1%;
        
         font-size: 14px;
         padding: 5% 5% 5% 7%;
