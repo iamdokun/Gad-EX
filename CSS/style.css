@@ -1,0 +1,338 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+  }
+/* START: Navigation */
+.navbar {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.9);
+    padding-left: 10%;
+    background-color: #f2f4fb;
+    width: 100%;
+    top: 0px;
+    z-index: 2;
+    box-sizing: border-box;
+}
+.navbar-nav {
+    padding-left: 7%;
+}
+.navbar-nav a {
+    color: #000;
+}
+.nav-item {
+    margin-left: 20px;
+}
+.login-btn a {
+    margin-right: 5%;
+    font-size: 15px;
+    color: #800020;
+    font-weight: bold;
+    text-decoration: none;
+}
+.login-btn a:hover {
+    color: #175977;
+}
+#donate {
+    background-color: #800020;
+    width: 120px;
+    border-radius: 0px 5px;
+    text-align: center;
+    margin-left: 30px;
+}
+#donate:hover {
+    background-color: #175977;
+}
+#donate a {
+    color: #fff;
+}
+.dropdown-menu {
+    background-color: #f2f4fb;
+}
+/* END: Navigation */
+
+/* START: Banner */
+.banner {
+    position: relative;
+    margin-top: 58px;
+    z-index: -1;
+    width: 100%; 
+}
+.banner img {
+    width: 100%;
+}
+.cover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* END: Banner */
+
+/* START: Overview & About Us*/
+.secOne {
+    background-color: #f2f4fb;
+    overflow: hidden;
+    padding-bottom: 140px;
+}
+.sectionHead {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 55px;
+    font-weight: bold;
+    color: #c6c6c6;
+    text-align: center;
+}
+.overviewImg {
+    width: 90%;
+    /* border: 1px solid red; */
+    margin: 20px 1% 25px 5%;
+}
+.overviewImg img {
+    width: 100%;
+}
+.overviewText {
+    margin: 10px 5% 10px 1%;
+}
+.overviewTextHead {
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #800020;
+    margin-bottom: 15px;
+}
+.overviewText p {
+    margin-left: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+.overviewTextwrap {
+   text-align: justify;
+    font-size: 14px;
+    line-height: 30px;
+}
+.aboutText {
+    padding-top: 10px;
+}
+
+
+/* END: Overview */
+
+/* Start: Sticky background */
+
+.stickyBackground {
+    height: 100vh;
+    background-image: url(/images/Road-and-Transportation-Engineering-image.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.stickyBackground2 {
+    height: 100vh;
+    background-image: url(/images/bckd4.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* End: Sticky background */
+
+/* Start: Apply */
+
+.apply {
+    overflow: hidden;
+    background-color: #f2f4fb;
+    /* padding-bottom: 30px; */
+    padding-bottom: 140px;
+}
+.bgApply1 {
+    border: 1px solid #c6c6c6;
+    width: 93.2%;
+    border-radius: 5px;
+}
+.bgApply1:hover {
+    background-color: #800020;
+    color: #fff;
+}
+.bgApply2 {
+    border: 1px solid #c6c6c6;
+    width: 93.2%;
+    border-radius: 5px;
+}
+.bgApply2:hover {
+    background-color: #175977;
+    color: #fff;
+}
+.applyImg {
+    width: 100%px;
+}
+.applyImg img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.applyText {
+    padding: 20px;
+}
+.applyText h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.applyText p {
+    margin-bottom: 40px;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: justify;
+}
+.applyBtn1 {
+    background-color: #800020;
+    color: #fff;
+    width: 120px;
+    border-radius: 0px 5px;
+}
+.applyBtn1:hover {
+    background-color: #fff;
+    color: #800020;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.applyBtn2 {
+    background-color: #175977;
+    color: #fff;
+    width: 120px;
+    border-radius: 0px 5px;
+}
+.applyBtn2:hover {
+    background-color: #fff;
+    color: #175977;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+/* End: Apply */
+
+/* Start: Contact Us */
+.contactBox {
+    background-color: #f2f4fb;
+    border: 1px solid #f2f4fb;
+}
+.formHeader {
+    font-size: 18px;
+    text-align: center;
+    padding: 25px 0px 30px 0px;
+}
+.form-row {
+    margin: 20px 0px 20px 0px;
+}
+.form-row input {
+    font-size: 14px;
+}
+.formBtn {
+    float: right;
+    margin-right: 6%;
+    background-color: #800020;
+    color: #fff;
+    width: 120px;
+    border-radius: 0px 5px;
+}
+.formBtn:hover {
+    background-color: #fff;
+    color: #800020;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #800020;
+}
+.contactImg {
+    width: 100%;
+}
+.contactImg img {
+    width: 100%;
+}
+
+/* END: Contact Us */
+
+/* START: Footer */
+.footerBox {
+    padding: 30px 0px 15px 0px;
+    text-align: center;
+    background-color: #175977;
+    color: #fff;
+   
+    font-size: 14px;
+}
+.footerBox a {
+    color: #fff;
+}
+.footerBox a:hover {
+    color: #800020;
+}
+
+/* END: Footer */
+
+
+
+@media(max-width: 800px){ 
+
+    .stickyBackground {
+        display: none;
+    }
+    .stickyBackground2 {
+        display: none;
+    }
+    .sectionHead {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 35px;
+        font-weight: bold;
+        color: #c6c6c6;
+        text-align: center;
+    }
+    .overviewText {
+        margin: 0px 1% 15px 1%;
+       
+        font-size: 14px;
+        padding: 5% 5% 5% 7%;
+    }
+    .secOne {
+        margin-bottom: 15px;
+        padding-bottom: 50px;
+       
+    }
+    .apply {
+        margin-bottom: 15px;
+        padding-bottom: 50px;
+        
+        
+    }
+    .applyBox1 {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        padding-bottom: 25px;
+    }
+    .applyBox2 {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .applyText h3 {
+        font-size: 18px;
+    }
+    .applyText p {
+        font-size: 14px;
+    }
+    .form-row {
+        margin: 0px 0px 0px 0px;
+    }
+    .form-row input {
+        margin-bottom: 15px;
+    }
+    .formBtn {
+        margin: 20px;
+    }
+
+}

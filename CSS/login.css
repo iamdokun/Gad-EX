@@ -1,0 +1,173 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding-top: 80px;
+    background-color: #f2f4fb;
+}
+.loginImgBox {
+    width: 100%;
+}
+.loginImgBox img {
+    width: 100%;
+    margin-top: 125px;
+}
+.loginBox {
+    border: 3px solid #c6c6c6;
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+    /* box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.9); */
+    box-shadow: 5px 15px 15px 5px rgba(0, 0, 0, 0.2);
+}
+.bgformBox {
+    background-color: #f2f4fb;
+    padding-top: 20px;
+}
+.loginLogo {
+    margin: auto;
+    width: 120px;
+    margin-bottom: 15px;
+}
+.slogan {
+    
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.socialHead {
+   
+    font-size: 10px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.socials {
+    display: flex;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.media {
+    border: 1px solid #c6c6c6;
+    margin: auto;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 3px;
+   
+}
+.lineBox {
+    margin: auto;
+    width: 75%;
+    display: flex;
+    text-align: center;
+    padding-left: 4%;
+    margin-bottom: 5px;
+}
+#line {
+    width: 25%;
+    margin-top: 13px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px; 
+}
+.break {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+.form-row {
+    margin-bottom: 10px;
+}
+.formInput {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.formInput input {
+    font-size: 12px;
+}
+.checkInput {
+    margin-left: 6%;
+}
+.checkboxLable {
+    font-size: 13px;
+}
+.forgot {
+    text-align: right;
+    margin-right: 4%;
+}
+.forgot a {
+    font-size: 13px;
+    color: #800020 !important;
+}
+.formBtnBox {
+    margin: auto;
+    width: 200px;
+    margin-top: 5px;
+}
+.formBtn {
+    background-color: #800020;
+    width: 200px;
+    border-radius: 0px 5px;
+    color: #fff;
+    font-size: 14px;
+}
+.formBtn:hover {
+    background-color: #175977;
+    color: #fff;
+}
+.dontHave {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.dontHave p {
+    font-size: 12px;
+}
+.reg1 {
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+}
+.reg1 a {
+    color: #800020;
+}
+.reg2 {
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+}
+.reg2 a {
+    color: #175977;
+}
+
+
+@media(max-width: 800px){ 
+
+    body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .loginBox {
+        width: 90%;
+      
+    }
+    .loginImgBox {
+        display: none;
+    }
+    .loginImgBox img {
+        display: none;
+    }
+
+
+}
